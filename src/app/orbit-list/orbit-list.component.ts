@@ -13,5 +13,7 @@ export class OrbitListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  objectKeys(satellite: object): string[] {
+    return Object.keys(satellite);
+  }
 }
