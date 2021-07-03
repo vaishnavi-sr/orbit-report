@@ -12,6 +12,7 @@ export class Satellite {
         this.orbitType = orbitType;
         this.launchDate = launchDate;
     }
+
     shouldShowWarning(): boolean {
         return this.type.toUpperCase() === "SPACE DEBRIS";
     }
